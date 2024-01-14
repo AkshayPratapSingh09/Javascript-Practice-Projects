@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Event KeyCodes</title>
+    <style>
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #e7e7e7;
+        padding: 10px;
+      }
+
+      table{
+        font-size: 2rem;
+        border-spacing:0;
+        border-collapse:no-collapse;
+
+      }
+      body {
+        background-color: #1c1c1c;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+      }
+
+      
+      .key{
+        margin-top: 20px;
+        font-size: 2rem;
+      }
+      nav{
+      margin-bottom: 50px;
+      }
+      nav a{
+        font-size: 1.5rem;
+        color: white;
+        padding: 10px;
+        border: 1px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
+        >Youtube channel</a
+      >
+      <a target="_blank" href="https://github.com/AkshayPratapSingh09/Javascript-Practice-Projects">Github</a>
+    
+    </nav>
+    <div class="project">
+      <div id="insert">
+        <table class="tabl" hidden>
+          <tr>
+            <th>Event</th>
+            <th>Key</th>
+            <th>Key Code</th>
+          </tr>
+          <tr>
+            <td class="event">event</td>
+            <td class="key">Key</td>
+            <td class="keyCode"></td>
+          </tr>
+          
+        </table>
+        <div class="key">Press any key and watch magic</div>
+      </div>
+    </div>
+    <script src="chaiaurcode.js">
+    </script>
+  </body>
+</html>
